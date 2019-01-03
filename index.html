@@ -19,7 +19,7 @@
 </head>
 <body>
 	<div id="fonts" class="text">hello,小猴子</div>
-	<div id="mob-fonts" class="text">hello,小猴子</div>
+	<div id="mob-fonts" class="text">hello,猴子</div>
 	<canvas id="anim" width="1920" height="1080"></canvas>
 
 
@@ -28,15 +28,15 @@
 	var COLOR = "tomato"; //粒子颜色；
 	var MESSAGE = document.getElementById("fonts").textContent;
 
-	var FONT_SIZE =250; //文字大小；
+	var FONT_SIZE =150; //文字大小；
 	var AMOUNT = 40000; //粒子数量；
 	var SIZE = 2; //粒子大小；
 	var INITIAL_DISPLACEMENT = 500; 
 	var INITIAL_VELOCITY = 5;
 	var VELOCITY_RETENTION = 0.95;
 	var SETTLE_SPEED = 1;
-	var FLEE_SPEED = 1;
-	var FLEE_DISTANCE = 50;
+	var FLEE_SPEED = 2;
+	var FLEE_DISTANCE = 250;
 	var FLEE = true;
 	var SCATTER_VELOCITY = 3;
 	var SCATTER = true;
@@ -48,8 +48,8 @@
 	  FONT_SIZE = 150;
 	  AMOUNT = 7000;
 	  SIZE = 2;
-	  INITIAL_DISPLACEMENT = 100;
-	  SETTLE_SPEED = 1;
+	  INITIAL_DISPLACEMENT = 200;
+	  SETTLE_SPEED = 2;
 	  FLEE = false;
 	  SCATTER_VELOCITY = 2;
 	}
